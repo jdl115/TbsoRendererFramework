@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'TbsoRendererFramework'
+    s.name             = 'TbsoRenderer'
     s.homepage         = 'http://trivver.com'
     s.version          = '1.0.0'
     s.summary          = 'TbsoRenderer Framework for IOS'
