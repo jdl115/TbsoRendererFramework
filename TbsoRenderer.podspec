@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
     s.license      = 'MIT'
     s.source       = { :git => 'https://github.com/jdl115/TbsoRendererFramework.git', :tag => '1.0.0' }
     s.authors       = 'Trivver'
-    s.ios.vendored_frameworks = 'Framework/TbsoRendererFramework.framework'
+    s.ios.vendored_frameworks = 'Framework/TbsoRenderer.framework'
 end
