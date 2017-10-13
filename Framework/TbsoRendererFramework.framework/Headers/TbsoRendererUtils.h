@@ -15,6 +15,7 @@
 @interface TbsoRendererUtils : NSObject
 
 +(void) scaleNode:(SCNNode*)node forView:(SCNView*) view;
-+(void) loadDefaultSceneForView:(SCNView*) view;
++(void) loadDefaultSceneForView:(SCNView*)view;
++(void) loadDefaultSceneForView:(SCNView*)view disablePanGesture:(bool)disablePanGesture;
 
 @end
